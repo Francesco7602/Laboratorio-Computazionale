@@ -16,9 +16,6 @@ Questo repository contiene il codice per disegnare e calcolare un grafo. Il prog
   - Legge il file di output generato da `main.c` e visualizza il grafo usando SDL2.
   - Permette di effettuare zoom in/out e di muovere la vista del grafo tramite input da tastiera e mouse.
 
-### File di Supporto
-- **out.txt**: Esempio di file di output generato dal programma di calcolo.
-
 ## Requisiti
 
 Per compilare ed eseguire il codice sono necessarie le librerie standard, più le seguenti librerie:

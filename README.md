@@ -1,8 +1,8 @@
 # Laboratorio-Computazionale
 
-Questo repository contiene il codice per disegnare e calcolare un grafo utilizzando tecniche di simulazione fisica. Il progetto è diviso in due file principali:
+Questo repository contiene il codice per disegnare e calcolare un grafo. Il progetto è diviso in due file principali:
 
-1. **main.c**: Questo file contiene il codice per calcolare le posizioni dei nodi del grafo utilizzando un algoritmo di posizionamento basato su forze repulsive e attrattive.
+1. **main.c**: Questo file contiene il codice per calcolare le posizioni dei nodi del grafo utilizzando un algoritmo di posizionamento basato su forze repulsive e attrattive(Fruchterman-Reingold).
 2. **disegna.c**: Questo file contiene il codice per visualizzare il grafo utilizzando la libreria SDL2.
 
 ## Contenuto del Repository
@@ -21,7 +21,7 @@ Questo repository contiene il codice per disegnare e calcolare un grafo utilizza
 
 ## Requisiti
 
-Per compilare ed eseguire il codice, sono necessarie le seguenti librerie:
+Per compilare ed eseguire il codice sono necessarie le librerie standard, più le seguenti librerie:
 
 - **MPI**: Libreria per la programmazione parallela.
 - **SDL2**: Libreria per la visualizzazione grafica.

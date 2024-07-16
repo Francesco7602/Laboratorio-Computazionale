@@ -8,4 +8,4 @@
 
 
 module load openmpi
-srun prova bio-human-gene1 100 500 1
+srun main bio-human-gene1 100 500 1

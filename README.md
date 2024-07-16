@@ -5,6 +5,8 @@ Questo repository contiene il codice per disegnare e calcolare un grafo. Il prog
 1. **main.c**: Questo file contiene il codice per calcolare le posizioni dei nodi del grafo utilizzando un algoritmo di posizionamento basato su forze repulsive e attrattive(Fruchterman-Reingold).
 2. **disegna.c**: Questo file contiene il codice per visualizzare il grafo utilizzando la libreria SDL2.
 
+Più vari file che si possono usare per testare l'algoritmo.
+
 ## Contenuto del Repository
 
 ### File Principali
@@ -25,7 +27,7 @@ Per compilare ed eseguire il codice sono necessarie le librerie standard, più l
 
 ## Autore
 
-Progetto realizzato da [Francesco Romeo]. 
+Progetto realizzato da **Francesco Romeo**. 
 ## Licenza
 
 Questo progetto è distribuito sotto la licenza MIT.

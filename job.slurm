@@ -8,4 +8,5 @@
 
 
 module load openmpi
-srun main bio-human-gene1 100 500 1
+mpirun -np 45 ./main cube 300 500 0
+##srun main bio-human-gene1 100 500 1

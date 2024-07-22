@@ -6,7 +6,6 @@
 #SBATCH --ntasks-per-node=6
 #SBATCH --cpus-per-task=1
 
-
+source /etc/profile.d/modules.sh
 module load openmpi
-mpirun -np 45 ./main cube 300 500 0
-##srun main bio-human-gene1 100 500 1
+mpirun main bio-dmela 100 500 0
